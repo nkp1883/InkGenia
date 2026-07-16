@@ -1,1 +1,81 @@
-node_modules
+# ==========================
+# Dependencies
+# ==========================
+client/node_modules/
+server/node_modules/
+
+# ==========================
+# Environment Variables
+# ==========================
+client/.env
+client/.env.*
+!client/.env.example
+
+server/.env
+server/.env.*
+!server/.env.example
+
+# ==========================
+# Build Files
+# ==========================
+client/dist/
+client/build/
+server/build/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Editor Files
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Cache
+# ==========================
+client/.vite/
+client/.cache/
+server/.cache/
+.cache/
+.eslintcache
+
+# ==========================
+# Coverage
+# ==========================
+coverage/
+client/coverage/
+server/coverage/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+
+# ==========================
+# Runtime Files
+# ==========================
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================
+# Optional Uploads
+# Uncomment if your server stores uploads locally
+# ==========================
+# server/uploads/
